@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.topnav {
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    background-color: rgb(128, 120, 238);
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+.row{
+    display: flex;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 100px;
+    height: 200px; 
+  }
+
+
+div h1{
+    font-size: 50px;;
+}
+
+div h2{
+    font-size: 30px;;
+}
+
+.Button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+  }
+
+.Button-inner {
+    align-items: center;
+    background: #15318e;
+    border: 2px solid transparent;
+    border-radius: 99em;
+    color: #fff;
+    display: flex;
+    font-weight: 600;
+    height: 2.5em;
+    min-width: 2.3em;
+    padding: 0 1em;
+    /* position: relative;  */
+    width: 100%;
+  }
+
+
+
+div p{
+    color:grey;
+}
+
+
+.row {
+  display: flex;
+}
+
+
+.column {
+  flex: 50%;
+  margin-top: 60px;;
+  padding: 20px;
+  height: 500px; 
+  
+}
+
+
+#rcorners2 {
+  border-radius: 25px; 
+  padding: 20px; 
+  width: 200px;
+  height: 250px; 
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  
+}
+
+.button1{
+  border-radius: 230px;
+  padding: 10px;
+  border-color: #11087c;
+  color: rgb(81, 73, 104);
+  background-color: white;
+  width: 120px;;
+}
+
+div p{
+  color:rgb(180, 180, 189);
+}
+
+h4{
+  color:rgb(27, 27, 232);
+
+}
+
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 40px 50px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  border-radius: 25px;
+  /* background-color: #f5efef; */
+}
+
+.card-btn{
+
+  border-radius: 230px;
+  padding: 5px;
+  color: rgb(244, 243, 246);
+  background-color: rgb(9, 21, 91);
+  width: 120px;
+  float:right;
+  
+}
+
